@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Askim - Pâtisseries Tunisiennes</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <!-- TODO: Create the top navigation bar
+         - Logo on the left (use <a class="navbar-brand">)
+         - Two nav links on the right: "Produits" and "Rendez-vous"
+         - Use Bootstrap's navbar component: https://getbootstrap.com/docs/5.3/components/navbar/
+         - Make it responsive with navbar-expand-lg and a toggler button for mobile
+    -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- TODO: Fill in the navbar content -->
+    </nav>
+
+    <!-- ============ HERO SECTION ============ -->
+    <!-- TODO: Create a full-screen welcome section
+         - Add a background image (or a CSS animation/gradient)
+         - Centered welcoming message (business name + tagline)
+         - Maybe a "Découvrir nos produits" button
+         - Hint: use classes like vh-100, d-flex, align-items-center, text-center
+    -->
+    <section id="hero" class="hero-section">
+        <!-- TODO: Fill in the hero content -->
+    </section>
+
+    <!-- ============ POPULAR PRODUCTS SECTION ============ -->
+    <!-- TODO: Show a few popular products
+         - Section title: "Nos produits populaires"
+         - Use Bootstrap cards in a row (row + col-md-4 for 3 columns)
+         - Each card: image, product name, short description
+         - Products will come from Supabase (see js/supabase.js)
+         - For now, you can hardcode a few cards to practice
+    -->
+    <section id="popular-products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nos produits populaires</h2>
+            <div class="row" id="popular-products-list">
+                <!-- TODO: Add product cards here (hardcoded or loaded from Supabase) -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ON SALE SECTION ============ -->
+    <!-- TODO: Show products currently on sale
+         - Similar layout to popular products
+         - Add a badge or label to show the discount
+         - Hint: use Bootstrap's badge component
+    -->
+    <section id="on-sale" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Promotions</h2>
+            <div class="row" id="on-sale-list">
+                <!-- TODO: Add sale product cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <!-- TODO: Create the footer
+         - Address of the shop
+         - Phone number
+         - Optionally: social media icons (use Bootstrap Icons)
+         - Hint: use a <footer> tag with Bootstrap grid for layout
+    -->
+    <footer class="py-4">
+        <!-- TODO: Fill in footer content -->
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Supabase JS -->
+    <script src="js/supabase.js"></script>
+    <!-- Page-specific JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

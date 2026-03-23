@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendez-vous - Maison Askim</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <!-- TODO: Same navbar as index.html, mark "Rendez-vous" as active -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <!-- TODO: Fill in the navbar content -->
+    </nav>
+
+    <!-- ============ BOOKING FORM ============ -->
+    <!-- TODO: Create a rendez-vous booking form
+         - Use a Bootstrap form inside a card or a clean container
+         - Fields to include:
+           * Nom complet (text input)
+           * Numéro de téléphone (tel input)
+           * Email (email input)
+           * Date souhaitée (date input)
+           * Message / détails de la commande (textarea)
+         - A submit button ("Réserver")
+         - On submit, save the data to Supabase (see js/rendezvous.js)
+         - Show a success/error message after submission
+         - Hint: https://getbootstrap.com/docs/5.3/forms/overview/
+    -->
+    <main class="container mt-5 pt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <h2 class="text-center mb-4">Prendre un rendez-vous</h2>
+                <form id="rendezvous-form">
+                    <!-- TODO: Add form fields here -->
+                </form>
+            </div>
+        </div>
+
+        <!-- ===== SOCIAL MEDIA LINKS ===== -->
+        <!-- TODO: Add social media links
+             - Instagram, Facebook, WhatsApp, etc.
+             - Use Bootstrap Icons (bi-instagram, bi-facebook, bi-whatsapp)
+             - Style them as nice clickable icons or buttons
+             - Hint: <a href="..." class="btn btn-outline-primary"><i class="bi bi-instagram"></i></a>
+        -->
+        <div class="text-center mt-5">
+            <h5>Retrouvez-nous sur les réseaux</h5>
+            <!-- TODO: Add social media icon links here -->
+        </div>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <!-- TODO: Same footer as index.html -->
+    <footer class="py-4 mt-5">
+        <!-- TODO: Fill in footer content -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/rendezvous.js"></script>
+</body>
+</html>

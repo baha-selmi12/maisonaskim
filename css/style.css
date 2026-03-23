@@ -1,0 +1,88 @@
+/* ============================================
+   Maison Askim - Custom Styles
+   ============================================
+   This file contains all custom styles.
+   Bootstrap handles the base styling and responsive grid.
+   Only add styles here for things Bootstrap doesn't cover.
+   ============================================ */
+
+
+/* ===== GLOBAL / VARIABLES ===== */
+/* TODO: Define your color palette using CSS variables
+   Example:
+   :root {
+       --color-primary: #C8956C;    (warm gold - for a patisserie vibe)
+       --color-secondary: #5D4037;  (dark brown)
+       --color-accent: #FF7043;     (accent for buttons/sale badges)
+       --color-bg-light: #FFF8F0;   (soft cream background)
+       --color-text: #3E2723;       (dark text)
+   }
+*/
+
+
+/* ===== NAVBAR ===== */
+/* TODO: Style the navbar
+   - Background color, text color
+   - Logo size
+   - Active link styling
+   - Maybe a subtle shadow: box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+*/
+
+
+/* ===== HERO SECTION (index.html) ===== */
+/* TODO: Style the hero / welcome section
+   - Full viewport height: height: 100vh;
+   - Background image: background-image: url('../assets/images/hero-bg.jpg');
+   - Overlay for readability: use a pseudo-element or a dark gradient
+   - Center the text: display: flex; align-items: center; justify-content: center;
+   - Large, elegant typography for the title
+*/
+
+
+/* ===== PRODUCT CARDS ===== */
+/* TODO: Style the product cards
+   - Hover effect (shadow, slight scale)
+   - Image sizing
+   - Price styling
+   - Sale badge styling
+*/
+
+
+/* ===== FILTERS SIDEBAR (products.html) ===== */
+/* TODO: Style the filter sidebar
+   - Border or background to distinguish it
+   - Spacing between filter groups
+   - On mobile: consider making it collapsible
+*/
+
+
+/* ===== BOOKING FORM (rendezvous.html) ===== */
+/* TODO: Style the booking form
+   - Form container styling (card, border, padding)
+   - Input focus states
+   - Submit button styling
+*/
+
+
+/* ===== SOCIAL MEDIA ICONS ===== */
+/* TODO: Style the social media links
+   - Icon size, spacing
+   - Hover color transitions
+*/
+
+
+/* ===== FOOTER ===== */
+/* TODO: Style the footer
+   - Background color, text color
+   - Link styling
+   - Responsive layout
+*/
+
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+/* TODO: Add any custom responsive tweaks
+   Bootstrap handles most of it, but you may need:
+   @media (max-width: 768px) {
+       ...mobile-specific styles...
+   }
+*/
